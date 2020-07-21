@@ -9,9 +9,9 @@ package org.tmdrk.boot.util;
  **/
 public class TestGit1 {
     public static void main(String[] args) {
-        System.out.println("你好这是一个测试");
-        for(int i=0;i<10;i++){
-            System.out.println("循环次数："+i);
+        System.out.println("你好这是一个测试hh");
+        for(int ii=0;ii<10;ii++){
+            System.out.println("循环次数："+ii);
         }
         System.out.println("end 结束");
     }
