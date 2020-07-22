@@ -9,6 +9,7 @@ package org.tmdrk.boot.util;
  **/
 public class TestGit2 {
     int i = 92;
+    int a = 92;
 
     public static void main(String[] args) {
         System.out.println("你好这是一个测试11222");
