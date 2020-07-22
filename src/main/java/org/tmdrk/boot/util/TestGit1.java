@@ -10,7 +10,7 @@ package org.tmdrk.boot.util;
 public class TestGit1 {
     public static void main(String[] args) {
 
-        System.out.println("你好这是一个测试hh111");
+        System.out.println("你好这是一个测试hh111000");
 
         for(int i=0;i<10;i++){
             System.out.println("循环次数："+i+" 次");
