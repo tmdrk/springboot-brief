@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T08:20:26.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bwbW1bwKyk5fIbtN85Op" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T11:23:02.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tyyn2HdbMU4sbZT6kkyg" version="21.1.2" type="github">
   <diagram name="第 1 页" id="lylQPRJbhHLtNiqhlF0K">
     <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
             <Array as="points">
               <mxPoint x="50" y="595" />
               <mxPoint x="50" y="775" />
-              <mxPoint x="650" y="775" />
+              <mxPoint x="700" y="775" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -51,7 +51,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="935" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="705" />
+              <mxPoint x="700" y="705" />
               <mxPoint x="250" y="705" />
             </Array>
           </mxGeometry>
@@ -84,7 +84,7 @@
             <mxPoint x="250" y="1115" as="targetPoint" />
             <mxPoint x="645" y="1095" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="650" y="1175" />
+              <mxPoint x="700" y="1175" />
               <mxPoint x="250" y="1175" />
             </Array>
           </mxGeometry>
@@ -105,7 +105,7 @@
             <Array as="points">
               <mxPoint x="110" y="1347" />
               <mxPoint x="110" y="1502" />
-              <mxPoint x="650" y="1502" />
+              <mxPoint x="700" y="1502" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -118,7 +118,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="1662" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="1472" />
+              <mxPoint x="700" y="1472" />
               <mxPoint x="335" y="1472" />
             </Array>
           </mxGeometry>
@@ -229,9 +229,6 @@
         <mxCell id="rHSOn81IW71_0ITYkw_M-151" value="获取FU,BU&lt;span style=&quot;background-color: initial;&quot;&gt;商品集合&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;align=left;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="rHSOn81IW71_0ITYkw_M-22">
           <mxGeometry x="360" y="1752" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rHSOn81IW71_0ITYkw_M-162" value="create.order.setting.checkShopSupportWashTrigger:true" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#fad9d5;strokeColor=none;rounded=1;align=left;" vertex="1" parent="rHSOn81IW71_0ITYkw_M-22">
-          <mxGeometry x="-120" y="1235" width="310" height="67" as="geometry" />
-        </mxCell>
         <mxCell id="rHSOn81IW71_0ITYkw_M-163" value="create.order.setting.common.gray.switch:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;shopSupportService&quot;:&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&quot;signal&quot;: true,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&quot;keyStartWithsIn&quot;: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&quot;keyIn&quot;: &quot;自营洗车美容&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#fad9d5;strokeColor=none;rounded=1;align=left;" vertex="1" parent="rHSOn81IW71_0ITYkw_M-22">
           <mxGeometry x="60" y="1505" width="230" height="120" as="geometry" />
         </mxCell>
@@ -299,6 +296,12 @@
         <mxCell id="rHSOn81IW71_0ITYkw_M-161" value="create.order.setting.common.gray.switch:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;checkShopPreOrderTradeBusiness&quot;:&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&quot;signal&quot;: true,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&quot;keyStartWithsIn&quot;: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&quot;keyIn&quot;:&quot;business_client_maintain,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;business_client_tire,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;business_client_wash&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#fad9d5;strokeColor=none;rounded=1;align=left;" vertex="1" parent="rHSOn81IW71_0ITYkw_M-22">
           <mxGeometry x="-120" y="405" width="230" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="rHSOn81IW71_0ITYkw_M-177" value="create.order.setting.common.gray.switch:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;skipShopCheckOrderChannel&quot;:全量&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&quot;skipShopCheckOrderType&quot;:全量&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fad9d5;strokeColor=none;rounded=1;align=left;" vertex="1" parent="rHSOn81IW71_0ITYkw_M-22">
+          <mxGeometry x="300" y="90" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rHSOn81IW71_0ITYkw_M-162" value="create.order.setting.checkShopSupportWashTrigger:true" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#fad9d5;strokeColor=none;rounded=1;align=left;" vertex="1" parent="rHSOn81IW71_0ITYkw_M-22">
+          <mxGeometry x="-120" y="1235" width="310" height="67" as="geometry" />
+        </mxCell>
         <mxCell id="rHSOn81IW71_0ITYkw_M-23" value="门店" style="swimlane;startSize=20;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="rHSOn81IW71_0ITYkw_M-21">
           <mxGeometry x="540" y="20" width="330" height="2010" as="geometry" />
         </mxCell>
@@ -324,7 +327,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="1752" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="1622" />
+              <mxPoint x="700" y="1622" />
               <mxPoint x="105" y="1622" />
             </Array>
           </mxGeometry>
@@ -334,7 +337,7 @@
             <mxPoint x="490" y="1055" as="targetPoint" />
             <Array as="points">
               <mxPoint x="390" y="1055" />
-              <mxPoint x="650" y="1055" />
+              <mxPoint x="700" y="1055" />
             </Array>
           </mxGeometry>
         </mxCell>
