@@ -1,9 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T11:24:56.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.1.2" etag="zFmNYcMoHXB7cWqMvErp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T11:57:15.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="x9IuI7O6q-sukAvLTRLE" version="21.1.2" type="github">
   <diagram name="第 1 页" id="fzuB67d-d_6YTExcCb_5">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9rEu4_szmAO7tUaO-d16-1" value="查询商品基础信息" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="894" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#00994D;" edge="1" parent="9rEu4_szmAO7tUaO-d16-1" source="9rEu4_szmAO7tUaO-d16-16" target="9rEu4_szmAO7tUaO-d16-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-3" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9rEu4_szmAO7tUaO-d16-2">
+          <mxGeometry x="-0.545" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#6C8EBF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9rEu4_szmAO7tUaO-d16-1" source="9rEu4_szmAO7tUaO-d16-44" target="9rEu4_szmAO7tUaO-d16-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="729" y="640" />
+              <mxPoint x="282" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-13" value="交易" style="swimlane;startSize=20;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-1">
+          <mxGeometry y="20" width="564" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-15" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-13">
+          <mxGeometry x="249" y="39" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#6C8EBF;" edge="1" parent="9rEu4_szmAO7tUaO-d16-13" source="9rEu4_szmAO7tUaO-d16-16" target="9rEu4_szmAO7tUaO-d16-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-16" value="是否使用&lt;br&gt;新商品服务" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-13">
+          <mxGeometry x="229" y="149" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-17" value="组装商品信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;align=center;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-13">
+          <mxGeometry x="379" y="849" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6C8EBF;" edge="1" parent="9rEu4_szmAO7tUaO-d16-13" source="9rEu4_szmAO7tUaO-d16-18" target="9rEu4_szmAO7tUaO-d16-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-18" value="组装商品信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;align=center;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-13">
+          <mxGeometry x="227" y="849" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#009900;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="9rEu4_szmAO7tUaO-d16-13" source="9rEu4_szmAO7tUaO-d16-15" target="9rEu4_szmAO7tUaO-d16-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-55" value="轮胎&amp;amp;保养门店&lt;br&gt;校验开关" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-13">
+          <mxGeometry x="79" y="300" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#B3B3B3;" edge="1" parent="9rEu4_szmAO7tUaO-d16-13" source="9rEu4_szmAO7tUaO-d16-97" target="9rEu4_szmAO7tUaO-d16-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101" y="970" />
+              <mxPoint x="282" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-97" value="组装商品信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;align=center;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-13">
+          <mxGeometry x="46" y="849" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-98" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-13">
+          <mxGeometry x="257" y="1050" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#009900;" edge="1" parent="9rEu4_szmAO7tUaO-d16-13" source="9rEu4_szmAO7tUaO-d16-17" target="9rEu4_szmAO7tUaO-d16-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="970" />
+              <mxPoint x="282" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-42" value="门店" style="swimlane;startSize=20;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-1">
+          <mxGeometry x="564" y="20" width="330" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-43" value="&lt;div&gt;&lt;div&gt;APPID:int-spring-cl-product-query-service&lt;/div&gt;&lt;div&gt;URI:/sku/getUnionSkuBaseAttrListByIds&lt;/div&gt;&lt;/div&gt;&lt;div&gt;商品(途虎/外采)基础信息、动态属性查询&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-42">
+          <mxGeometry x="50" y="209" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-44" value="&lt;div&gt;APPID:shop-shopinfo&lt;/div&gt;&lt;div&gt;URI:/yewu-shopinfo/query-shops-shop-config-by-id/{shopId}&lt;/div&gt;&lt;div&gt;查询门店基础信息（包含开业时间、ABC类型）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-42">
+          <mxGeometry x="10" y="520" width="310" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-53" value="&lt;div&gt;&lt;div&gt;APPID:cl-product-price-service&lt;/div&gt;&lt;div&gt;URI:/standardPrice/getSkuBasePrice&lt;/div&gt;&lt;/div&gt;&lt;div&gt;根据skuId集合查询价格基础数据&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-42">
+          <mxGeometry x="15" y="370" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9rEu4_szmAO7tUaO-d16-42" source="9rEu4_szmAO7tUaO-d16-43" target="9rEu4_szmAO7tUaO-d16-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-154" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="290" />
+              <mxPoint x="-155" y="290" />
+              <mxPoint x="-155" y="330" />
+              <mxPoint x="165" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-100" value="&lt;div&gt;APPID:shop-shopinfo&lt;/div&gt;&lt;div&gt;URI:/yewu-shopinfo/query-shops-shop-config-by-id/{shopId}&lt;/div&gt;&lt;div&gt;查询门店基础信息（包含开业时间、ABC类型）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="9rEu4_szmAO7tUaO-d16-42">
+          <mxGeometry x="10" y="690" width="310" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009900;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9rEu4_szmAO7tUaO-d16-1" source="9rEu4_szmAO7tUaO-d16-53" target="9rEu4_szmAO7tUaO-d16-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="729" y="470" />
+              <mxPoint x="440" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6C8EBF;" edge="1" parent="9rEu4_szmAO7tUaO-d16-1" source="9rEu4_szmAO7tUaO-d16-55" target="9rEu4_szmAO7tUaO-d16-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="345" />
+              <mxPoint x="260" y="500" />
+              <mxPoint x="729" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#B3B3B3;" edge="1" parent="9rEu4_szmAO7tUaO-d16-1" source="9rEu4_szmAO7tUaO-d16-55" target="9rEu4_szmAO7tUaO-d16-100">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="345" />
+              <mxPoint x="40" y="670" />
+              <mxPoint x="729" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9rEu4_szmAO7tUaO-d16-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#B3B3B3;" edge="1" parent="9rEu4_szmAO7tUaO-d16-1" source="9rEu4_szmAO7tUaO-d16-100" target="9rEu4_szmAO7tUaO-d16-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="810" />
+              <mxPoint x="101" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
